@@ -27,7 +27,7 @@ public class EmailController {
         User userEmail = userService.getUserEmail(user.getEmail_id());
         String toEmail =user.getEmail_id();
         String fromEmail = "arulselvan844@gmail.com";
-        String password = "Arul@3697";
+        String password = "*****";
 
         try {
             // your host email smtp server details
